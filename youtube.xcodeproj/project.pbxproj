@@ -17,6 +17,8 @@
 		E1475D622591D19000514043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1475D602591D19000514043 /* Main.storyboard */; };
 		E1475D642591D19200514043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1475D632591D19200514043 /* Assets.xcassets */; };
 		E1475D672591D19200514043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1475D652591D19200514043 /* LaunchScreen.storyboard */; };
+		E165C5FA259F01B700F692B0 /* ManageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165C5F9259F01B700F692B0 /* ManageCache.swift */; };
+		E1DF4508259EF62100527D35 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF4507259EF62100527D35 /* VideoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		E1475D632591D19200514043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1475D662591D19200514043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1475D682591D19200514043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E165C5F9259F01B700F692B0 /* ManageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCache.swift; sourceTree = "<group>"; };
+		E1DF4507259EF62100527D35 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +70,59 @@
 			children = (
 				E1475D5A2591D19000514043 /* AppDelegate.swift */,
 				E1475D5C2591D19000514043 /* SceneDelegate.swift */,
-				E1475D5E2591D19000514043 /* ViewController.swift */,
-				E1475D602591D19000514043 /* Main.storyboard */,
+				E1DF450E259EF68B00527D35 /* Story Boards */,
+				E1DF450D259EF67100527D35 /* Views */,
+				E1DF450C259EF66900527D35 /* Models */,
+				E1DF450B259EF66100527D35 /* View Controllers */,
+				E1DF450A259EF65300527D35 /* Constant File */,
 				E1475D632591D19200514043 /* Assets.xcassets */,
-				E1475D652591D19200514043 /* LaunchScreen.storyboard */,
 				E1475D682591D19200514043 /* Info.plist */,
+			);
+			path = youtube;
+			sourceTree = "<group>";
+		};
+		E1DF450A259EF65300527D35 /* Constant File */ = {
+			isa = PBXGroup;
+			children = (
 				E11473C12595B0CC006E4D3E /* Constants.swift */,
+				E165C5F9259F01B700F692B0 /* ManageCache.swift */,
+			);
+			path = "Constant File";
+			sourceTree = "<group>";
+		};
+		E1DF450B259EF66100527D35 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1475D5E2591D19000514043 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E1DF450C259EF66900527D35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				E11473C42595B3DE006E4D3E /* Video.swift */,
 				E11473C72595B50C006E4D3E /* Model.swift */,
 				E12BA876259B034A003921B6 /* Response.swift */,
 			);
-			path = youtube;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1DF450D259EF67100527D35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1DF4507259EF62100527D35 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1DF450E259EF68B00527D35 /* Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				E1475D602591D19000514043 /* Main.storyboard */,
+				E1475D652591D19200514043 /* LaunchScreen.storyboard */,
+			);
+			path = "Story Boards";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +199,9 @@
 				E1475D5B2591D19000514043 /* AppDelegate.swift in Sources */,
 				E1475D5D2591D19000514043 /* SceneDelegate.swift in Sources */,
 				E11473C82595B50C006E4D3E /* Model.swift in Sources */,
+				E165C5FA259F01B700F692B0 /* ManageCache.swift in Sources */,
 				E11473C22595B0CC006E4D3E /* Constants.swift in Sources */,
+				E1DF4508259EF62100527D35 /* VideoTableViewCell.swift in Sources */,
 				E11473C52595B3DE006E4D3E /* Video.swift in Sources */,
 				E12BA877259B034A003921B6 /* Response.swift in Sources */,
 			);
