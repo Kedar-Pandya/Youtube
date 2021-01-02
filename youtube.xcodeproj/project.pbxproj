@@ -18,6 +18,8 @@
 		E1475D642591D19200514043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1475D632591D19200514043 /* Assets.xcassets */; };
 		E1475D672591D19200514043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1475D652591D19200514043 /* LaunchScreen.storyboard */; };
 		E165C5FA259F01B700F692B0 /* ManageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165C5F9259F01B700F692B0 /* ManageCache.swift */; };
+		E1A689D325A0385300B34026 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A689D225A0385300B34026 /* DetailViewController.swift */; };
+		E1A689D725A0412E00B34026 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A689D625A0412E00B34026 /* WebKit.framework */; };
 		E1DF4508259EF62100527D35 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF4507259EF62100527D35 /* VideoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		E1475D662591D19200514043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1475D682591D19200514043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E165C5F9259F01B700F692B0 /* ManageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCache.swift; sourceTree = "<group>"; };
+		E1A689D225A0385300B34026 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E1A689D625A0412E00B34026 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		E1DF4507259EF62100527D35 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A689D725A0412E00B34026 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,7 @@
 			children = (
 				E1475D592591D19000514043 /* youtube */,
 				E1475D582591D19000514043 /* Products */,
+				E1A689D525A0412E00B34026 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +87,14 @@
 			path = youtube;
 			sourceTree = "<group>";
 		};
+		E1A689D525A0412E00B34026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A689D625A0412E00B34026 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1DF450A259EF65300527D35 /* Constant File */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E1475D5E2591D19000514043 /* ViewController.swift */,
+				E1A689D225A0385300B34026 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -202,6 +217,7 @@
 				E165C5FA259F01B700F692B0 /* ManageCache.swift in Sources */,
 				E11473C22595B0CC006E4D3E /* Constants.swift in Sources */,
 				E1DF4508259EF62100527D35 /* VideoTableViewCell.swift in Sources */,
+				E1A689D325A0385300B34026 /* DetailViewController.swift in Sources */,
 				E11473C52595B3DE006E4D3E /* Video.swift in Sources */,
 				E12BA877259B034A003921B6 /* Response.swift in Sources */,
 			);
