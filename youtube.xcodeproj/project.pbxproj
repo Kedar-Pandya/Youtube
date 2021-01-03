@@ -18,6 +18,7 @@
 		E1475D642591D19200514043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1475D632591D19200514043 /* Assets.xcassets */; };
 		E1475D672591D19200514043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1475D652591D19200514043 /* LaunchScreen.storyboard */; };
 		E165C5FA259F01B700F692B0 /* ManageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165C5F9259F01B700F692B0 /* ManageCache.swift */; };
+		E16EABAB25A1E101001103BE /* ConstatntsForYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16EABAA25A1E101001103BE /* ConstatntsForYou.swift */; };
 		E1A689D325A0385300B34026 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A689D225A0385300B34026 /* DetailViewController.swift */; };
 		E1A689D725A0412E00B34026 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A689D625A0412E00B34026 /* WebKit.framework */; };
 		E1DF4508259EF62100527D35 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF4507259EF62100527D35 /* VideoTableViewCell.swift */; };
@@ -37,6 +38,7 @@
 		E1475D662591D19200514043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1475D682591D19200514043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E165C5F9259F01B700F692B0 /* ManageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCache.swift; sourceTree = "<group>"; };
+		E16EABAA25A1E101001103BE /* ConstatntsForYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstatntsForYou.swift; sourceTree = "<group>"; };
 		E1A689D225A0385300B34026 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E1A689D625A0412E00B34026 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		E1DF4507259EF62100527D35 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				E11473C12595B0CC006E4D3E /* Constants.swift */,
 				E165C5F9259F01B700F692B0 /* ManageCache.swift */,
+				E16EABAA25A1E101001103BE /* ConstatntsForYou.swift */,
 			);
 			path = "Constant File";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				E1475D5F2591D19000514043 /* ViewController.swift in Sources */,
 				E1475D5B2591D19000514043 /* AppDelegate.swift in Sources */,
 				E1475D5D2591D19000514043 /* SceneDelegate.swift in Sources */,
+				E16EABAB25A1E101001103BE /* ConstatntsForYou.swift in Sources */,
 				E11473C82595B50C006E4D3E /* Model.swift in Sources */,
 				E165C5FA259F01B700F692B0 /* ManageCache.swift in Sources */,
 				E11473C22595B0CC006E4D3E /* Constants.swift in Sources */,
